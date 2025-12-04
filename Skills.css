@@ -1,0 +1,57 @@
+/* Main section layout */
+.portfolio10-skills {
+  padding: 80px 10%;
+  background: #f8fafc;
+}
+
+/* Section title */
+.portfolio10-skills-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Grid layout */
+.portfolio10-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Individual skill card */
+.portfolio10-skill-card {
+  background: white;
+  padding: 20px;
+  width: 140px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.portfolio10-skill-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Skill icon */
+.portfolio10-skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Skill text */
+.portfolio10-skill-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+@media (max-width: 600px) {
+  .portfolio10-skill-card {
+    width: 120px;
+  }
+}
