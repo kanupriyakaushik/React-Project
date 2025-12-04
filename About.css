@@ -1,0 +1,30 @@
+.portfolio10-about { padding: 56px 0; background: #fff; }
+
+.portfolio10-about__inner { display:flex; flex-direction: column; gap: 18px; }
+
+.portfolio10-about__title { font-size: 1.5rem; margin: 0 0 8px 0; }
+
+.portfolio10-about__content {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.portfolio10-about__text { flex: 1; }
+
+.portfolio10-about__lead { font-size: 1rem; margin-bottom: 10px; color: #111827; }
+
+.portfolio10-about__details { font-size: 0.95rem; color: #374151; }
+
+.portfolio10-about__photo img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Responsive */
+@media (max-width: 880px) {
+  .portfolio10-about__content { flex-direction: column; text-align: center; }
+  .portfolio10-about__photo img { width: 160px; height: 160px; }
+}
